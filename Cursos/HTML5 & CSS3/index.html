@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <title>José David</title>
     </head>
     <body>
         <header>
-            <img width="100px" src="./static/profile-image.png" alt="Foto de perfil de José David"> <!-- Image by Stephanie Edwards (https://pixabay.com/users/wanderercreative-855399) from Pixabay -->
-            <h1>José David</h1>
+            <img width="100px" src="./static/profile-image.png" alt="Foto de perfil de José David" class="profile-picture"> <!-- Image by Stephanie Edwards (https://pixabay.com/users/wanderercreative-855399) from Pixabay -->
+            <h1 id="title">José David</h1>
         </header>
         <section>
             <header>
-                <h2>Posts</h2>
+                <h2 class="subtitle">Posts</h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Mais recente post</h3>
-                    <img height="200px" src="./static/post-background.jpg" alt="Código html aberto em um editor de código"> <!-- Image at https://unsplash.com/photos/4hbJ-eymZ1o -->
+                    <h3 class="post_title">Mais recente post</h3>
+                    <img src="./static/post-background.jpg" alt="Código html aberto em um editor de código" class="post_image"> <!-- Image at https://unsplash.com/photos/4hbJ-eymZ1o -->
                 </header>
-                <p>Descrição do mais recente post.</p>
+                <p class="post_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris <a href="#">velit nisi</a>, porttitor ac quam at, aliquet cursus quam. Donec elit ante, ullamcorper gravida dolor vel, pretium rutrum quam. Nam a risus ipsum. Praesent imperdiet, ante id tempus tempus, mi mauris aliquam ipsum, vel vulputate turpis nisi facilisis lectus. Nunc aliquam rhoncus aliquet. Donec tincidunt massa lobortis elit vehicula volutpat. Integer volutpat ultricies odio. Suspendisse tempus vestibulum est. Morbi vitae auctor sem. Pellentesque id maximus metus. Aenean tristique nunc at risus convallis, eget viverra dui elementum. Fusce mollis viverra lobortis.</p>
             </article>
         </section>
         <footer>
-            <ul>
+            <ul class="contacts-list">
                 <li>
                     <a href="https://github.com/DaveJosef">Github</a>
                 </li>
