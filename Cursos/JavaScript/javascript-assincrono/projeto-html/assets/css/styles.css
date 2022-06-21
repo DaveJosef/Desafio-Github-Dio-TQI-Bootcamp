@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 27px;
+}
+
+span {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    min-height: 480px;
+}
+
+#cat-img {
+    border-radius: 20px;
+}
+
+#form-cats {
+    margin-bottom: 20px;
+}
+
+#form-cats input {
+    width: 100px;
+    height: 60px;
+    font-size: 2rem;
+    color: #FFF;
+    background-color: #06b7b4;
+    border: 0;
+    border-radius: 20px;
+}
