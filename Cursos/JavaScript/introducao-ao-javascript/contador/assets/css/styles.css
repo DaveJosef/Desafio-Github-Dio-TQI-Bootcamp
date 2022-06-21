@@ -1,0 +1,21 @@
+body {
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-contador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 12px 0;
+}
+
+#form-contador:nth-child(2) {
+    background-color: red;
+}
+
+.negative-value {
+    color: red;
+}
