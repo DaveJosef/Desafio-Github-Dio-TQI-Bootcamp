@@ -1,17 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    font-family: Verdana, sans-serif;
-    color: gray;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #FFF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    min-height: 100vh;
     margin: auto;
-    margin-bottom: 27px;
+    background: linear-gradient(-45deg, #9E1F16, #EB4438, #2184EB, #24609E);
+}
+
+h1 {
+    margin-top: 20px;
 }
 
 span {
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 section {
@@ -21,6 +33,8 @@ section {
     justify-content: center;
     max-width: 90%;
     min-height: 480px;
+    margin-top: 20px;
+    padding-bottom: 27px;
 }
 
 #cat-img {
@@ -28,7 +42,7 @@ section {
 }
 
 #form-cats {
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #form-cats input {
@@ -36,7 +50,13 @@ section {
     height: 60px;
     font-size: 2rem;
     color: #FFF;
-    background-color: #06b7b4;
+    background-color: #EB4438;
     border: 0;
     border-radius: 20px;
+    border: 2px solid #9E1F16;
+}
+
+#form-cats input:hover {
+    color: #EB4438;
+    background-color: #FFF;
 }
