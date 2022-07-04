@@ -8,15 +8,30 @@
     <title>Contador</title>
 </head>
 <body>
-    <section>
-        <h1>Vamos Contar</h1>
-        <span>Use os botões para incrementar ou diminuir o número abaixo.</span>
-        <form action="submit" id="form-contador">
-            <input type="button" value="-">
-            <span id="campo-numero">0</span>
-            <input type="button" value="+">
-        </form>
-    </section>
+    <h1>Você está comprando:</h1>
+    <div id="columns">
+        <div>
+            <section id="frigideira-image">
+                <img src="https://m.media-amazon.com/images/I/41Dqvfgi4eL._AC_.jpg" alt="frigideira com uma espátula">
+            </section>
+            <section id="contador">
+                <form action="submit" id="form-contador">
+                    <input type="button" value="-">
+                    <span id="campo-numero">0</span>
+                    <input type="button" value="+">
+                </form>
+            </section>
+        </div>
+        <div>
+            <section id="frigideira-price">
+                <h3>Valor unitário:</h3>
+                <p id="unity-price">R$ 84,66</p>
+                <h3>Preço:</h3>
+                <p id="calculated-price">R$ 0,00</p>
+            </section>
+        </div>
+    </div>
+    <input id="continue" type="button" value="Continuar">
     <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
