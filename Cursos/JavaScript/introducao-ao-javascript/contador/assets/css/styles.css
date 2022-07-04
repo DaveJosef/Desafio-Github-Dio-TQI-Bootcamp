@@ -1,15 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
     color: gray;
     display: flex;
+    flex-flow: column;
     align-items: center;
-    justify-content: center;
+}
+
+h1 {
+    max-width: 500px;
+    text-align: left;
+    margin-top: 27px;
+}
+
+#columns > div:nth-child(1) > section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#columns {
+    height: 250px;
+    max-width: 500px;
+    border-radius: 8px;
+    border: 2px solid rgb(89, 89, 89);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 27px;
+    padding: 4px 8px;
+}
+
+#columns > div {
+    width: 50%;
+}
+
+#frigideira-image > img {
+    width: 80%;
+    border-radius: 8px;
+    border: 2px solid rgb(89, 89, 89);
 }
 
 #form-contador {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     padding: 12px 0;
+}
+
+#form-contador > input {
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    background: inherit;
+    color: #24609E;
+    border-radius: 50%;
+    border: 2px solid #24609E;
+}
+
+#form-contador > input:hover {
+    background: rgb(33, 132, 235);
+    color: #FFF;
+}
+
+#form-contador > input:disabled {
+    background: rgb(220, 220, 220);
+    color: rgb(100, 100, 100);
+    border: 2px solid rgb(100, 100, 100);
+}
+
+#form-contador > span {
+    height: 37px;
+    width: 37px;
+    border-radius: 8px;
+    border: 2px solid rgb(89, 89, 89);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #form-contador:nth-child(2) {
@@ -18,4 +95,18 @@ body {
 
 .negative-value {
     color: red;
+}
+
+#frigideira-price > h3 {
+    margin-top: 8px;
+}
+
+#continue {
+    font-size: 1em;
+    background: rgb(220, 220, 220);
+    color: rgb(100, 100, 100);
+    border-radius: 8px;
+    border: 2px solid rgb(100, 100, 100);
+    padding: 4px 8px;
+    margin-top: 8px;
 }
