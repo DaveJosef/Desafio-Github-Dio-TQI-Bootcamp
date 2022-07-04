@@ -9,16 +9,22 @@ body {
     min-height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+    color: rgb(89, 89, 89);
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 80px;
+}
+
+h1 {
+    display: none;
 }
 
 #tasks-form {
+    font-size: 1.2em;
     width: 100%;
     min-height: 160px;
-    background: #9E1F16;
+    background: #2184EB;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,15 +32,25 @@ body {
 }
 
 #tasks-form > input {
+    font-size: inherit;
+    color: #2184EB;
+    background-color: #FFF;
     min-width: 80px;
     height: 40px;
     border-radius: 8px;
+    border: 2px solid #24609E;
+}
+
+#tasks-form > input:nth-child(1) {
+    color: inherit;
 }
 
 #tasks-list {
     font-size: 1em;
     list-style: none;
     max-width: 500px;
+    width: 95%;
+    padding-bottom: 80px;
 }
 
 li {
@@ -57,7 +73,6 @@ li > input {
 
 li > label {
     word-wrap: anywhere;
-    width: 95%;
     min-height: inherit;
     border-radius: 8px;
     border: 2px solid rgb(89, 89, 89);
@@ -65,8 +80,19 @@ li > label {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 0.8;
+    padding: 4px 8px;
 }
 
 li.done {
     text-decoration: line-through;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    border-top: 2px solid rgb(89, 89, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
 }
