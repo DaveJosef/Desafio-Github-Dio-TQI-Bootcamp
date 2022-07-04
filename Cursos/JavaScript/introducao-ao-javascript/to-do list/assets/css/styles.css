@@ -1,3 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+#tasks-form {
+    width: 100%;
+    min-height: 160px;
+    background: #9E1F16;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#tasks-form > input {
+    min-width: 80px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#tasks-list {
+    font-size: 1em;
+    list-style: none;
+    max-width: 500px;
+}
+
+li {
+    max-width: inherit;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 27px;
+}
+
+li > input {
+    height: 35px;
+    width: 35px;
+    border-radius: inherit;
+    border: inherit;
+    flex: 0.2;
+}
+
+li > label {
+    word-wrap: anywhere;
+    width: 95%;
+    min-height: inherit;
+    border-radius: 8px;
+    border: 2px solid rgb(89, 89, 89);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0.8;
+}
 
 li.done {
     text-decoration: line-through;
