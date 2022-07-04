@@ -1,11 +1,21 @@
+const calculatedPricePanel = document.getElementById('calculated-price');
 const form = document.getElementById('form-contador');
 const buttonDecrement = form.children[0];
 const numberPanel = form.children[1];
 const buttonIncrement = form.children[2];
+const unitaryPrice = 8466;
 
 // logic
+function format(calculatedPrice) {
+    const calculatedPriceInteger = Math.floor(calculatedPrice / 100);
+    const calculatedPriceMod = calculatedPrice % 100;
+    return `R$ ${calculatedPriceInteger},${Math.abs(calculatedPriceMod) < 10 ? '0' + calculatedPriceMod : calculatedPriceMod}`;
+}
+
 function changeValue(value) {
     numberPanel.innerText = value;
+    const calculatedPrice = value * unitaryPrice;
+    calculatedPricePanel.innerText = format(calculatedPrice);
 }
 
 function changeColor(value) {
@@ -31,7 +41,7 @@ function increment() {
     value++;
     changeValue(value);
     changeColor(value);
-    //disableButtons(value);
+    disableButtons(value);
 }
 
 function decrement() {
@@ -39,11 +49,12 @@ function decrement() {
     value--;
     changeValue(value);
     changeColor(value);
-    //disableButtons(value);
+    disableButtons(value);
 }
 
 // add listeners
 buttonDecrement.addEventListener('click', decrement);
 buttonIncrement.addEventListener('click', increment);
+window.onload = increment;
 
 numberPanel.value = 0;
