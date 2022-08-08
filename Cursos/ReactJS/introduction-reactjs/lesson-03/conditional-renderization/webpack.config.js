@@ -18,6 +18,14 @@ module.exports = {
           }
         },
         {
+          test: /\.html$/,
+          use: [
+            {
+              loader: "html-loader"
+            }
+          ]
+        },
+        {
           test: /\.css$/,
           use: [
             // [css-loader](/loaders/css-loader)
@@ -30,6 +38,9 @@ module.exports = {
           ]
         }
       ]
+    },
+    resolve: {
+      extensions: ['.js', '.jsx'],
     },
     plugins: [
       new HtmlWebPackPlugin({
