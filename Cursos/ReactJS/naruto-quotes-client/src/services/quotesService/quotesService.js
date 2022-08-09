@@ -1,4 +1,1 @@
-export const getQuote = () => ({
-    speaker: 'Loading speaker...',
-    quote: 'Loading Quote'
-  });
+export const getQuote = () => fetch(process.env.REACT_APP_API).then((response) => response.json());
