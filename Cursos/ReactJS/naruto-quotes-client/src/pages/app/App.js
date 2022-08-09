@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { Quotes } from "../../components/quotes/Quotes";
 import narutoImg from '../../images/naruto.png';
@@ -20,6 +20,14 @@ export function App() {
       setQuote(resQuote);
     }
   }
+  
+  useEffect(() => {
+    onUpdate();
+
+    return () => {
+      isMounted.current = false;
+    };
+  }, []);
 
   return (
     <Content>
