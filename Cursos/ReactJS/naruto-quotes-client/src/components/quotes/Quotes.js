@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { string, func } from 'prop-types';
+import { Button } from "../button";
 
 export const Quotes = ({ quote, speaker, onUpdate = () => {} }) => {
 
@@ -7,7 +8,7 @@ export const Quotes = ({ quote, speaker, onUpdate = () => {} }) => {
         <Wrapper>
             <Quote>"{quote}"</Quote>
             <Speaker>- {speaker}</Speaker>
-            <button onClick={onUpdate}>Quote No Jutsu</button>
+            <Button onClick={onUpdate}>Quote No Jutsu</Button>
         </Wrapper>
     );
 }
