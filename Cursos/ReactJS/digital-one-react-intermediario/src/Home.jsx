@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const Home = () => (
+const Home = () => (
     <>
         <p>Olá! Selecione uma aula abaixo :D</p>
         <Link to="/aula-1" >Aula 1</Link>
@@ -13,3 +13,5 @@ export const Home = () => (
         <Link to="/aula-4" >Aula 4</Link>
     </>
 );
+
+export default Home;

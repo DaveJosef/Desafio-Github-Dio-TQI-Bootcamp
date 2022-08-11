@@ -1,7 +1,9 @@
 import React from 'react';
 
-export const Aula4 = () => {
+const Aula4 = () => {
   return (
     <div>Aula4</div>
   )
 }
+
+export default Aula4;

@@ -23,7 +23,7 @@ const ClassRoomBoard = styled.div`
   margin: 12px;
 `;
 
-export const Aula1 = () => {
+const Aula1 = () => {
   const [topic, setTopic] = useState(1);
 
   return (
@@ -41,3 +41,5 @@ export const Aula1 = () => {
     </ClassRoom>
   )
 }
+
+export default Aula1;
