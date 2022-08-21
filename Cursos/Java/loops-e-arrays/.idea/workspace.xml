@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc9eb5b1-855f-4ee7-9d47-5af9af66391f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/loops-e-arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops-e-arrays.iml" beforeDir="false" afterPath="$PROJECT_DIR$/loops-e-arrays.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/Ex1_OrdemInversa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/Ex2_Consoantes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/Ex3_NumerosAleatorios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/Ex4_ArrayMultidimensional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/comentado/ArrayMultidimensional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/comentado/Consoantes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/comentado/NumerosAleatorios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/comentado/OrdemInversa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/arrays/comentado/anotacao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/Ex1_NomeEIdade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/Ex2_Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/Ex3_MaiorEMedia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/Ex4_ParEImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/Ex5_Tabuada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/Ex6_Fatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/comentado/Fatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/comentado/MaiorEMedia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/comentado/NomeEIdade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/comentado/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/comentado/ParEImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/br/com/dio/exercicios/loops/comentado/Tabuada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2DfwH6Z19ppOwLA6KVCrwbntyPU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc9eb5b1-855f-4ee7-9d47-5af9af66391f" name="Default Changelist" comment="" />
+      <created>1661103355762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661103355762</updated>
+    </task>
+    <servers />
+  </component>
+</project>
