@@ -1,0 +1,10 @@
+[] class Gato - nome, idade, cor
+[] new ArrayList()
+[] Collections.shuffle()
+[] Collections.sort()
+[] sort()
+[] Comparable
+https://www.geeksforgeeks.org/comparable-vs-comparator-in-java/
+[] new ComparatorIdade()
+[] new ComparatorCor()
+[] new ComparatorNomeGeneroTempoEpisodio()
