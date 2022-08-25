@@ -46,7 +46,17 @@ public class ExercicioProposto03 {
         }
 
         System.out.println("--\tOrdem número telefone\t--");
-        TreeSet<Map.Entry<Integer, Contato>> set = new TreeSet<>(new ComparatorOrdemNumerica());
+        // usando ComparatorOrdemNumerica
+//        TreeSet<Map.Entry<Integer, Contato>> set = new TreeSet<>(new ComparatorOrdemNumerica());
+//        set.addAll(agenda.entrySet());
+//        for (Map.Entry<Integer, Contato> entry :
+//                set) {
+//            System.out.println(entry.getKey() + " - " + entry.getValue().getNumero() + ": " + entry.getValue().getNome());
+//        }
+        // usando Comparator.comparing()
+        TreeSet<Map.Entry<Integer, Contato>> set = new TreeSet<>(Comparator.comparing(
+                cont -> cont.getValue().getNumero()
+        ));
         set.addAll(agenda.entrySet());
         for (Map.Entry<Integer, Contato> entry :
                 set) {
@@ -56,10 +66,13 @@ public class ExercicioProposto03 {
         System.out.println("--\tOrdem nome contato\t--");
         TreeSet<Map.Entry<Integer, Contato>> set1 = new TreeSet<>(new ComparatorOrdemNomeContato());
         set1.addAll(agenda.entrySet());
-        for (Map.Entry<Integer, Contato> entry :
-                set1) {
-            System.out.println(entry.getKey() + " - " + entry.getValue().getNome());
-        }
+        // imprimir usando foreach snippet:
+//        for (Map.Entry<Integer, Contato> entry :
+//                set1) {
+//            System.out.println(entry.getKey() + " - " + entry.getValue().getNome());
+//        }
+        // imprimir usando método Set#forEach():
+        set1.forEach(entry -> System.out.println(entry.getKey() + " - " + entry.getValue().getNome()));
 
     }
 }
