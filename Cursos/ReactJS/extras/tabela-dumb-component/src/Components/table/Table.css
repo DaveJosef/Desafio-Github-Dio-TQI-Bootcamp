@@ -1,0 +1,32 @@
+
+table {
+    background-color: white;
+    padding: .5rem .8rem;
+    margin-top: 50px;
+    border: 2px solid #24609E;
+    border-radius: 8px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    overflow: hidden;
+}
+
+thead tr {
+    color: #2184EB;
+    /* background-color: #2184EB; */
+}
+
+th {
+    padding: .8rem 0;
+    border-bottom: 2px solid #24609E;
+}
+
+hr {
+    width: 100%;
+}
+
+tbody tr:nth-child(even) {
+}
+
+td {
+    padding: .8rem .8rem;
+}
