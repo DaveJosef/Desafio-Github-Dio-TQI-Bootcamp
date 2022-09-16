@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+	version="2.2">
+	<persistence-unit name="Clientes-PU">
+		<properties>
+			<!-- URL de conexão ao banco -->
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/db_cadastro_cliente?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC" />
+			<!-- usuário do BD -->
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<!-- senha do BD -->
+			<property name="javax.persistence.jdbc.password" value="password" />
+			<!-- JDBC driver de conexão -->
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+			<!-- traduzir o mapeamento do hibernate para o SQL nativo do SGBD -->
+				<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
+			<!-- cria o BD e encerra no final da sessão -->
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<!-- imprime as consultas no LOG -->
+			<property name="hibernate.show_sql" value="true" />
+			<!-- formata a impressão das consultas no LOG -->
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.connection.autocommit " value="true" />
+		</properties>
+	</persistence-unit>
+
+</persistence>
