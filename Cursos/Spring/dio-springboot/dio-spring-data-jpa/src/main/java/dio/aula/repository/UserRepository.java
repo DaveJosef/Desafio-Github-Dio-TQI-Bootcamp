@@ -13,7 +13,7 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     List<User> findByNameContaining(String name);
 
     // Query method
-    User findByUserName(String username);
+    User findByUsername(String username);
 
     // Query Override
     @Query("SELECT u FROM User u WHERE u.name LIKE %:name%")
